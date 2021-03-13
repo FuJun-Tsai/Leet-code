@@ -1,0 +1,60 @@
+.tab-0 {
+  padding-left: 0px;
+}
+
+.tab-1 {
+  padding-left: 30px;
+}
+
+.tab-2 {
+  padding-left: 60px;
+}
+
+.tab-3 {
+  padding-left: 90px;
+}
+
+.tab-4 {
+  padding-left: 120px;
+}
+
+.tab-5 {
+  padding-left: 150px;
+}
+
+.font-var {
+  color: #9cdcf7;
+}
+
+.font-num {
+  color: #7eeb7e;
+}
+
+.font-cond {
+  color: #e45fff;
+}
+
+.font-key {
+  color: #376fff;
+}
+
+.font-func {
+  color: #fcfc79;
+}
+
+.font-note {
+  color: #6a9955;
+}
+
+.code-table {
+  background-color: black;
+  margin: 0 12px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.code-table code {
+  display: block;
+  color: white;
+}
+/*# sourceMappingURL=code.css.map */

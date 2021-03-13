@@ -1,0 +1,41 @@
+$tab : 5;
+$font-var   : 'blue';
+$font-num   : 'green';
+$font-cond  : 'purple';
+$font-key   : 'blue';
+$font-func  : 'yellow';
+
+$font-color:(
+    var:rgb(156, 220, 247),
+    num:rgb(126, 235, 126),
+    cond:rgb(228, 95, 255),
+    key:rgb(55, 111, 255),
+    func:rgb(252, 252, 121),
+    note:rgb(106, 153, 85),
+);
+
+@for $i from 0 through $tab{
+    .tab-#{$i} {
+        padding-left: 30px * $i;
+    }
+}
+
+@each $type , $color in $font-color{
+    .font-#{$type}{
+        color:$color;
+    }
+} 
+
+// --------------------------------------------------
+
+.code-table{
+    background-color: black;
+    margin: 0 12px;
+    border-radius: 8px;
+    padding: 20px;
+    code{
+        display: block;
+        color: white;
+    }
+}
+
